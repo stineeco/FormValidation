@@ -1,0 +1,323 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,500&display=swap');
+
+
+
+body{
+    background-color:  hsl(0, 100%, 74%) ;
+    background-image: url(deskback.png);
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    min-height: 100vh;
+}
+
+.head_demo{
+    font-family: poppins;
+    color: whitesmoke;
+    font-size: 20px;
+}
+
+
+.text_demo{
+    font-family: poppins;
+    color: whitesmoke;
+    font-size: 12px;
+}
+
+.pro_container{
+    display: grid;
+    grid-template-columns: repeat(2, 440px);
+    gap: 40px;
+}
+
+
+.trial_dict{
+    font-size: 8px;
+    text-align: center;
+    color: white;
+    border-radius: 5px;
+    background-color: hsl(248, 32%, 49%);
+    font-family: poppins;
+    padding: 1px 0px 1px 0px;
+    margin-bottom: 13px;
+    box-shadow: 0px 5px  hsl(0, 58%, 65%);
+  
+}
+
+
+.pay_link{
+    font-size: 11px;
+    color: #d6d2d2;
+}
+
+.headers{
+    margin-top: 80px;
+}
+
+.form_container{
+    background-color: white;
+    box-shadow: 0px 5px  hsl(0, 58%, 65%);
+    border-radius: 5px;
+    max-width:100% ;
+  
+}
+
+
+.form{
+    padding: 25px 15px 25px 15px;
+}
+
+
+.form_control{
+    margin-bottom: 10px;
+    padding-bottom: 20px;
+    position: relative;
+}
+
+
+.form_control input{
+    display: block;
+    border-radius: 5px;
+    border: 1px solid #f0f0f0;
+    width: 90%;
+    height: 35px;
+    position: relative;
+    margin-left: 6px;
+    padding-left: 16px;
+}
+
+.form_control i {
+    visibility: hidden;
+    position: absolute;
+    top: 11px;
+    right: 30px;
+
+}
+
+.form_control small{
+    visibility: hidden;
+    position: absolute;
+    font-family:Poppins;
+    font-size: 10px;
+    right: 14px;
+    bottom: 1px;
+}
+
+
+
+.form button{
+    background-color:hsl(154, 59%, 51%);
+    font-family: poppins;
+    border-radius: 5px;
+    margin-left: 6px;
+    display: block;
+    color: white;
+    height: 35px;
+    width: 95.8%;
+}
+
+
+
+.terms{
+    color:  #cec2c2;
+    font-size: 8px;
+    font-family: poppins;
+    text-align: center;
+}
+
+
+.form_control.error input{
+    border-color:  hsl(0, 100%, 74%);
+
+}
+
+.form_control.error small{
+    visibility: visible;
+    color: hsl(0, 100%, 74%) ;
+}
+
+
+.form_control.error medium{
+    visibility: visible;
+    color: hsl(0, 100%, 74%) ;
+}
+
+
+
+.form_control.error i{
+    visibility: visible;
+    color: hsl(0, 100%, 74%) ;
+}
+
+
+
+
+
+.link_terms{
+    color:hsl(0, 100%, 74%) ;
+   
+}
+
+
+
+
+
+
+.email.error ::placeholder{
+    color: hsl(0, 100%, 74%);
+}
+
+
+.attribution{
+    align-items: center;
+    text-align: center;
+}
+
+
+
+@media  (min-width:500px)and (max-width:900px ) {
+
+
+
+
+    .head_demo{
+        font-size: 11px;
+    }
+
+
+    .pro_container{
+        display: grid;
+        grid-template-columns: repeat(2, 240px);
+        gap: 40px;
+    }
+
+
+
+    .text_demo{
+        font-family: poppins;
+        color: whitesmoke;
+        font-size: 7px;
+    }
+
+
+
+.trial_dict{
+    font-size: 5px;
+    padding: 6px 0px 6px 0px;
+    border-radius: 10px;
+}
+
+
+
+
+
+.form_container{
+    background-color: white;
+    box-shadow: 0px 5px  hsl(0, 58%, 65%);
+    border-radius: 5px;
+    max-width:100% ;
+  
+}
+
+
+
+.form{
+    padding: 25px 15px 25px 15px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+@media  (min-width:300px)and (max-width:500px ) {
+    body{
+        background-image: url(images/bg-intro-mobile.png);
+    }
+
+    
+    
+    .pro_container{
+        display: grid;
+        grid-template-columns: repeat(1, 275px);
+        gap: 40px;
+    }
+
+
+    .head_demo{
+        text-align: center;
+        font-size:13px ;
+    }
+
+
+    .text_demo{
+        text-align: center;
+        font-size: 13.5px;
+        padding: 0px;
+        
+    }
+
+
+    h2{
+        padding: 7px 50px 7px 50px;
+    }
+
+
+    .form_container{
+        border-radius: 10px;
+    }
+
+
+
+    .form_control input{
+        margin-left: 5px;
+        padding-left: 9px;
+        height: 40px;
+    }
+
+    .form button{
+        margin-left: 5px;
+        height: 45px;
+        width: 95%;
+    }
+
+   
+
+
+    .form_control i {
+        top: 17px;
+    }
+    
+  
+
+
+    .terms{
+        font-size: 8.5px;
+        padding: 0px 24px;
+        text-align: center;
+
+    }
+
+
+    .attribution{
+        font-size: 10px;
+        text-align: center;
+    }
+
+
+}

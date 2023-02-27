@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="style.css">
+   <script src="https://kit.fontawesome.com/e2315a4622.js" crossorigin="anonymous"></script>
+   
+   
+  
+  <title>Frontend Mentor | Intro component with sign up form</title>
+</head>
+<body>
+
+
+    <div class="container">
+
+    <div class="deform">
+
+    <div class="pro_container">
+      <div class="headers">
+
+      <div class="head_demo">
+        <h1>Learn to code by watching others</h1>
+      </div>
+
+      <div class="text_demo">
+        <p>
+          See how experienced developers solve problems in real-time. Watching scripted tutorials is great, 
+          but understanding how developers think is invaluable. 
+        </p>
+      </div>
+      </div>
+
+      <div class="trial_">
+        <dIV class="trial_header">
+          <div class="trial_dict">
+          <h2 class="trial_template"> Try it free 7 days <span class="pay_link"> then $20/mo. thereafter</span></h2>
+        </dIV>
+      </div>
+      
+
+      <div class="form_container">
+
+        <form class="form" id="form">
+
+          <div class="form_control success">
+            <input id="firstname" placeholder=" First Name" type="text">
+            <i class="fa-solid fa-circle-exclamation"></i>
+            <small>Frist Name cannot be empty</small>
+           </div>
+
+
+          <div class="form_control">
+            <input id="lastname" placeholder=" Last Name" type="text">
+            <i class="fa-solid fa-circle-exclamation"></i>
+            <small>Last Name cannot be empty</small>
+          </div>
+
+
+          <div class="form_control ">
+            <input id="email" placeholder=" Email Address" type="text" class="email">
+            <i class="fa-solid fa-circle-exclamation"></i>
+            <medium> </medium>
+            <small>Looks like this is not an email</small>
+           </div>
+
+
+
+          <div class="form_control">
+            <input id="password" placeholder=" Password" type="password" value="" >
+            <i class="fa-solid fa-circle-exclamation"></i>
+            <small>Password cannot be empty</small>
+           </div>
+
+           <button id="enter" class="signin_btn" type="submit" onclick="setInputValue()">Claim your free trial</button>
+
+             
+
+              <div class="terms_tap">
+                <p class="terms">By clicking the button, you are agreeing to our <span class="link_terms">Terms and Services</span></p>
+              </div>
+        </form>
+       
+        
+
+      </div>
+    </div>
+
+  </div>
+    </div>
+
+
+
+   
+    <footer>
+      <p class="attribution">
+        Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+        Coded by <a href="https://github.com/stineeco">Stine</a>.
+      </p>
+    </footer>
+    
+</body>
+<script src="index.js"></script>
+</html>
